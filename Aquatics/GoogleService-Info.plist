@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>924821522259-u92u2i3sh4h8jpbssra1c5m7f72p4hde.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.924821522259-u92u2i3sh4h8jpbssra1c5m7f72p4hde</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB3iJp6wg-X8PpStIjNBM0UK27f7uTamVM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>924821522259</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>aquatics.deepness.industries.Aquatics</string>
+	<key>PROJECT_ID</key>
+	<string>aquatics-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aquatics-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:924821522259:ios:769bc911295eee81</string>
+	<key>DATABASE_URL</key>
+	<string>https://aquatics-app.firebaseio.com</string>
+</dict>
+</plist>

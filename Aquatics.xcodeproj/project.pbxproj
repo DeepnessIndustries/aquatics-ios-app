@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7905DC20D52E2F00135CDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E7905DB20D52E2F00135CDF /* GoogleService-Info.plist */; };
+		1E9B06A920D533C9000EDE20 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B06A820D533C9000EDE20 /* RegistrationViewController.swift */; };
+		1EA0F97520CEAB66002540B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0F97420CEAB66002540B7 /* AppDelegate.swift */; };
+		1EA0F97720CEAB66002540B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0F97620CEAB66002540B7 /* ViewController.swift */; };
+		1EA0F97A20CEAB66002540B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA0F97820CEAB66002540B7 /* Main.storyboard */; };
+		1EA0F97C20CEAB67002540B7 /* app-logo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA0F97B20CEAB67002540B7 /* app-logo.xcassets */; };
+		1EA0F97F20CEAB67002540B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA0F97D20CEAB67002540B7 /* LaunchScreen.storyboard */; };
+		1EA0F98A20CEAB67002540B7 /* AquaticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0F98920CEAB67002540B7 /* AquaticsTests.swift */; };
+		1EA0F99520CEAB67002540B7 /* AquaticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0F99420CEAB67002540B7 /* AquaticsUITests.swift */; };
+		1EA5931120D480FA00BB3271 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5931020D480FA00BB3271 /* LoginViewController.swift */; };
+		1EC5037F20D2AC9A00A77B3B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC5037E20D2AC9900A77B3B /* StoreKit.framework */; };
+		338D62FF731BC9DE1463F5B1 /* Pods_AquaticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF749F60840C271A560567C /* Pods_AquaticsTests.framework */; };
+		5BC59F2D4001E84C0226ED8F /* Pods_Aquatics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2ADB84473EC3AEFEEF6D8D /* Pods_Aquatics.framework */; };
+		C92F8D3DE4E2A31DE334CD06 /* Pods_AquaticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A244F5F13EBEF1FE0EA1A4F /* Pods_AquaticsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA0F98620CEAB67002540B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA0F96920CEAB66002540B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA0F97020CEAB66002540B7;
+			remoteInfo = Aquatics;
+		};
+		1EA0F99120CEAB67002540B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA0F96920CEAB66002540B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA0F97020CEAB66002540B7;
+			remoteInfo = Aquatics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3A2EB920D823B400A1542D /* Aquatics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquatics.entitlements; sourceTree = "<group>"; };
+		1E7905DB20D52E2F00135CDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E9B06A820D533C9000EDE20 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1EA0F97120CEAB66002540B7 /* Aquatics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquatics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA0F97420CEAB66002540B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EA0F97620CEAB66002540B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EA0F97920CEAB66002540B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EA0F97B20CEAB67002540B7 /* app-logo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "app-logo.xcassets"; sourceTree = "<group>"; };
+		1EA0F97E20CEAB67002540B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EA0F98020CEAB67002540B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA0F98520CEAB67002540B7 /* AquaticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA0F98920CEAB67002540B7 /* AquaticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaticsTests.swift; sourceTree = "<group>"; };
+		1EA0F98B20CEAB67002540B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA0F99020CEAB67002540B7 /* AquaticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA0F99420CEAB67002540B7 /* AquaticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaticsUITests.swift; sourceTree = "<group>"; };
+		1EA0F99620CEAB67002540B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA5931020D480FA00BB3271 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1EC5037E20D2AC9900A77B3B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2C451582D62A4B261625479D /* Pods-AquaticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquaticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AquaticsTests/Pods-AquaticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2ADB84473EC3AEFEEF6D8D /* Pods_Aquatics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquatics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E70DF9EF3AF2695C286D71 /* Pods-AquaticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquaticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AquaticsUITests/Pods-AquaticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61C3A5912927EDC1E1B1FCCC /* Pods-AquaticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquaticsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AquaticsUITests/Pods-AquaticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86A157F3A04C07FD200FAF6B /* Pods-Aquatics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquatics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aquatics/Pods-Aquatics.debug.xcconfig"; sourceTree = "<group>"; };
+		8A244F5F13EBEF1FE0EA1A4F /* Pods_AquaticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AquaticsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF749F60840C271A560567C /* Pods_AquaticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AquaticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4288A0A0587DF19C1BBE240 /* Pods-AquaticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AquaticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AquaticsTests/Pods-AquaticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5E2C59F2AC41846B081B8F7 /* Pods-Aquatics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquatics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquatics/Pods-Aquatics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA0F96E20CEAB66002540B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC5037F20D2AC9A00A77B3B /* StoreKit.framework in Frameworks */,
+				5BC59F2D4001E84C0226ED8F /* Pods_Aquatics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98220CEAB67002540B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338D62FF731BC9DE1463F5B1 /* Pods_AquaticsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98D20CEAB67002540B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92F8D3DE4E2A31DE334CD06 /* Pods_AquaticsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA0F96820CEAB66002540B7 = {
+			isa = PBXGroup;
+			children = (
+				1EA0F97320CEAB66002540B7 /* Aquatics */,
+				1EA0F98820CEAB67002540B7 /* AquaticsTests */,
+				1EA0F99320CEAB67002540B7 /* AquaticsUITests */,
+				1EA0F97220CEAB66002540B7 /* Products */,
+				1EC5037D20D2AC9900A77B3B /* Frameworks */,
+				505C4B85951B1AFE889CAFBA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA0F97220CEAB66002540B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA0F97120CEAB66002540B7 /* Aquatics.app */,
+				1EA0F98520CEAB67002540B7 /* AquaticsTests.xctest */,
+				1EA0F99020CEAB67002540B7 /* AquaticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EA0F97320CEAB66002540B7 /* Aquatics */ = {
+			isa = PBXGroup;
+			children = (
+				1E3A2EB920D823B400A1542D /* Aquatics.entitlements */,
+				1EA5931220D4810B00BB3271 /* ViewControllers */,
+				1EA0F97420CEAB66002540B7 /* AppDelegate.swift */,
+				1EA0F97620CEAB66002540B7 /* ViewController.swift */,
+				1EA0F97820CEAB66002540B7 /* Main.storyboard */,
+				1EA0F97B20CEAB67002540B7 /* app-logo.xcassets */,
+				1EA0F97D20CEAB67002540B7 /* LaunchScreen.storyboard */,
+				1EA0F98020CEAB67002540B7 /* Info.plist */,
+				1E7905DB20D52E2F00135CDF /* GoogleService-Info.plist */,
+			);
+			path = Aquatics;
+			sourceTree = "<group>";
+		};
+		1EA0F98820CEAB67002540B7 /* AquaticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA0F98920CEAB67002540B7 /* AquaticsTests.swift */,
+				1EA0F98B20CEAB67002540B7 /* Info.plist */,
+			);
+			path = AquaticsTests;
+			sourceTree = "<group>";
+		};
+		1EA0F99320CEAB67002540B7 /* AquaticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA0F99420CEAB67002540B7 /* AquaticsUITests.swift */,
+				1EA0F99620CEAB67002540B7 /* Info.plist */,
+			);
+			path = AquaticsUITests;
+			sourceTree = "<group>";
+		};
+		1EA5931220D4810B00BB3271 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5931020D480FA00BB3271 /* LoginViewController.swift */,
+				1E9B06A820D533C9000EDE20 /* RegistrationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EC5037D20D2AC9900A77B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EC5037E20D2AC9900A77B3B /* StoreKit.framework */,
+				2D2ADB84473EC3AEFEEF6D8D /* Pods_Aquatics.framework */,
+				9DF749F60840C271A560567C /* Pods_AquaticsTests.framework */,
+				8A244F5F13EBEF1FE0EA1A4F /* Pods_AquaticsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		505C4B85951B1AFE889CAFBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86A157F3A04C07FD200FAF6B /* Pods-Aquatics.debug.xcconfig */,
+				F5E2C59F2AC41846B081B8F7 /* Pods-Aquatics.release.xcconfig */,
+				2C451582D62A4B261625479D /* Pods-AquaticsTests.debug.xcconfig */,
+				B4288A0A0587DF19C1BBE240 /* Pods-AquaticsTests.release.xcconfig */,
+				61C3A5912927EDC1E1B1FCCC /* Pods-AquaticsUITests.debug.xcconfig */,
+				40E70DF9EF3AF2695C286D71 /* Pods-AquaticsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA0F97020CEAB66002540B7 /* Aquatics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA0F99920CEAB67002540B7 /* Build configuration list for PBXNativeTarget "Aquatics" */;
+			buildPhases = (
+				6A59E480764FB6013BCEBA20 /* [CP] Check Pods Manifest.lock */,
+				1EA0F96D20CEAB66002540B7 /* Sources */,
+				1EA0F96E20CEAB66002540B7 /* Frameworks */,
+				1EA0F96F20CEAB66002540B7 /* Resources */,
+				CB05E0C725CBF55E7E58A003 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aquatics;
+			productName = Aquatics;
+			productReference = 1EA0F97120CEAB66002540B7 /* Aquatics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EA0F98420CEAB67002540B7 /* AquaticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA0F99C20CEAB67002540B7 /* Build configuration list for PBXNativeTarget "AquaticsTests" */;
+			buildPhases = (
+				83AF28DB9B691166686D3E06 /* [CP] Check Pods Manifest.lock */,
+				1EA0F98120CEAB67002540B7 /* Sources */,
+				1EA0F98220CEAB67002540B7 /* Frameworks */,
+				1EA0F98320CEAB67002540B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA0F98720CEAB67002540B7 /* PBXTargetDependency */,
+			);
+			name = AquaticsTests;
+			productName = AquaticsTests;
+			productReference = 1EA0F98520CEAB67002540B7 /* AquaticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EA0F98F20CEAB67002540B7 /* AquaticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA0F99F20CEAB67002540B7 /* Build configuration list for PBXNativeTarget "AquaticsUITests" */;
+			buildPhases = (
+				1A78BE0099B63F86FFF9E729 /* [CP] Check Pods Manifest.lock */,
+				1EA0F98C20CEAB67002540B7 /* Sources */,
+				1EA0F98D20CEAB67002540B7 /* Frameworks */,
+				1EA0F98E20CEAB67002540B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA0F99220CEAB67002540B7 /* PBXTargetDependency */,
+			);
+			name = AquaticsUITests;
+			productName = AquaticsUITests;
+			productReference = 1EA0F99020CEAB67002540B7 /* AquaticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA0F96920CEAB66002540B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Deepness Industries";
+				TargetAttributes = {
+					1EA0F97020CEAB66002540B7 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					1EA0F98420CEAB67002540B7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1EA0F97020CEAB66002540B7;
+					};
+					1EA0F98F20CEAB67002540B7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1EA0F97020CEAB66002540B7;
+					};
+				};
+			};
+			buildConfigurationList = 1EA0F96C20CEAB66002540B7 /* Build configuration list for PBXProject "Aquatics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EA0F96820CEAB66002540B7;
+			productRefGroup = 1EA0F97220CEAB66002540B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA0F97020CEAB66002540B7 /* Aquatics */,
+				1EA0F98420CEAB67002540B7 /* AquaticsTests */,
+				1EA0F98F20CEAB67002540B7 /* AquaticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA0F96F20CEAB66002540B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA0F97F20CEAB67002540B7 /* LaunchScreen.storyboard in Resources */,
+				1E7905DC20D52E2F00135CDF /* GoogleService-Info.plist in Resources */,
+				1EA0F97C20CEAB67002540B7 /* app-logo.xcassets in Resources */,
+				1EA0F97A20CEAB66002540B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98320CEAB67002540B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98E20CEAB67002540B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A78BE0099B63F86FFF9E729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AquaticsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A59E480764FB6013BCEBA20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aquatics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83AF28DB9B691166686D3E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AquaticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB05E0C725CBF55E7E58A003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aquatics/Pods-Aquatics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aquatics/Pods-Aquatics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA0F96D20CEAB66002540B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5931120D480FA00BB3271 /* LoginViewController.swift in Sources */,
+				1EA0F97720CEAB66002540B7 /* ViewController.swift in Sources */,
+				1E9B06A920D533C9000EDE20 /* RegistrationViewController.swift in Sources */,
+				1EA0F97520CEAB66002540B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98120CEAB67002540B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA0F98A20CEAB67002540B7 /* AquaticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA0F98C20CEAB67002540B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA0F99520CEAB67002540B7 /* AquaticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA0F98720CEAB67002540B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA0F97020CEAB66002540B7 /* Aquatics */;
+			targetProxy = 1EA0F98620CEAB67002540B7 /* PBXContainerItemProxy */;
+		};
+		1EA0F99220CEAB67002540B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA0F97020CEAB66002540B7 /* Aquatics */;
+			targetProxy = 1EA0F99120CEAB67002540B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EA0F97820CEAB66002540B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA0F97920CEAB66002540B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EA0F97D20CEAB67002540B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA0F97E20CEAB67002540B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EA0F99720CEAB67002540B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EA0F99820CEAB67002540B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA0F99A20CEAB67002540B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A157F3A04C07FD200FAF6B /* Pods-Aquatics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Aquatics/Aquatics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = Aquatics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.Aquatics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EA0F99B20CEAB67002540B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E2C59F2AC41846B081B8F7 /* Pods-Aquatics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Aquatics/Aquatics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = Aquatics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.Aquatics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EA0F99D20CEAB67002540B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C451582D62A4B261625479D /* Pods-AquaticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = AquaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.AquaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquatics.app/Aquatics";
+			};
+			name = Debug;
+		};
+		1EA0F99E20CEAB67002540B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4288A0A0587DF19C1BBE240 /* Pods-AquaticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = AquaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.AquaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquatics.app/Aquatics";
+			};
+			name = Release;
+		};
+		1EA0F9A020CEAB67002540B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C3A5912927EDC1E1B1FCCC /* Pods-AquaticsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = AquaticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.AquaticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aquatics;
+			};
+			name = Debug;
+		};
+		1EA0F9A120CEAB67002540B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E70DF9EF3AF2695C286D71 /* Pods-AquaticsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ3YFM4AF9;
+				INFOPLIST_FILE = AquaticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aquatics.deepness.industries.AquaticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aquatics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA0F96C20CEAB66002540B7 /* Build configuration list for PBXProject "Aquatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA0F99720CEAB67002540B7 /* Debug */,
+				1EA0F99820CEAB67002540B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA0F99920CEAB67002540B7 /* Build configuration list for PBXNativeTarget "Aquatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA0F99A20CEAB67002540B7 /* Debug */,
+				1EA0F99B20CEAB67002540B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA0F99C20CEAB67002540B7 /* Build configuration list for PBXNativeTarget "AquaticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA0F99D20CEAB67002540B7 /* Debug */,
+				1EA0F99E20CEAB67002540B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA0F99F20CEAB67002540B7 /* Build configuration list for PBXNativeTarget "AquaticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA0F9A020CEAB67002540B7 /* Debug */,
+				1EA0F9A120CEAB67002540B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EA0F96920CEAB66002540B7 /* Project object */;
+}
